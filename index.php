@@ -6,12 +6,8 @@ $replacement = '\1\2';
 
 foreach ($array as $value) {
 
-    echo $value.PHP_EOL;
-
-}
-foreach ($array as $value) {
-
-	echo(preg_replace($pattern, $replacement, $value).PHP_EOL);
+    echo $value . '&nbsp;&nbsp;&nbsp;&nbsp;';
+	echo(preg_replace($pattern, $replacement, $value) . '<br>');
 
 }
 
